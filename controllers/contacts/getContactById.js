@@ -1,5 +1,5 @@
 const { basedir } = global;
-const { Contact } = require(`${basedir}/models/contact`);
+const { Contact } = require(`${basedir}/models/contacts`);
 const { createError } = require(`${basedir}/helpers`);
 
 const getContactById = async (req, res, next) => {
